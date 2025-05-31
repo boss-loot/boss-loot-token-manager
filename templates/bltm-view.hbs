@@ -1,0 +1,26 @@
+<div class='bltm-layout'>
+  <!-- Search + List -->
+  <div class='bltm-column bltm-left'>
+    <input type='search' id='bltm-search' placeholder='Search...' class='bltm-search' />
+    <div id='bltm-list' class='bltm-list'>
+      {{#each entries}}
+        <div class='bltm-image-key' data-key='{{this.key}}' data-src='{{this.src}}'>
+          {{this.key}}
+        </div>
+      {{/each}}
+    </div>
+    <input type='hidden' name='selectedKey' id='bltm-selectedKey' value='{{selectedKey}}' />
+    <input type='hidden' name='selectedSrc' id='bltm-selectedSrc' value='{{selectedSrc}}' />
+  </div>
+
+  <!-- Preview -->
+  <div class='bltm-column bltm-right'>
+    <div id='bltm-preview-container'>
+      <div class='bltm-empty-container'>
+        <p class='bltm-placeholder'>{{localize 'boss-loot-token-manager.ui.previewHint'}}</p>
+        <!-- COMMERCIAL -->
+        <p class='bltm-promo'>{{{localize 'boss-loot-token-manager.ui.previewPromo'}}}</p>
+      </div>
+    </div>
+  </div>
+</div>

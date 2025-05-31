@@ -1,0 +1,220 @@
+/* Default: Dark Theme */
+body {
+  --bltm-bg: #2a2a2a;
+  --bltm-bg-hover: #3a3a3a;
+  --bltm-bg-light: #444;
+  --bltm-outline: #5d142b;
+  --bltm-border: #666;
+  --bltm-border-strong: #333;
+  --bltm-text: #ccc;
+  --bltm-placeholder: #888;
+}
+
+/* Light Theme Override */
+body.theme-light {
+  --bltm-bg: #f3f3e0;
+  --bltm-bg-hover: #e6e6e6;
+  --bltm-bg-light: #f8f4f1;
+  --bltm-outline: #a33344;
+  --bltm-border: #ccc;
+  --bltm-border-strong: #999;
+  --bltm-text: #333;
+  --bltm-placeholder: #888;
+}
+
+/* ------------------------------- */
+/* View */
+/* ------------------------------- */
+#bltm-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  height: 430px;
+  margin-left: 20px;
+}
+
+.bltm .bltm-layout {
+  display: flex;
+  gap: 10px;
+  min-height: 400px;
+}
+
+.bltm .bltm-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bltm .bltm-right {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.bltm .bltm-search {
+  margin-bottom: 8px;
+  padding: 0 1rem !important;
+  border-radius: 20px !important;
+}
+
+.bltm .bltm-list {
+  overflow-y: auto;
+  border: 1px solid var(--bltm-border);
+  padding: 5px;
+  width: 480px;
+  height: 400px;
+}
+
+.bltm .bltm-image-key {
+  cursor: pointer;
+  padding: 4px;
+  border-bottom: 1px solid var(--bltm-bg-light);
+}
+
+.bltm .bltm-image-key:nth-child(even) {
+  background-color: var(--bltm-bg);
+}
+
+.bltm .bltm-image-key:hover {
+  background-color: var(--bltm-bg-hover);
+}
+
+.bltm .bltm-image-key.selected {
+  background-color: var(--bltm-bg-light) !important;
+  outline: 2px solid var(--bltm-outline);
+}
+
+.bltm .bltm-placeholder {
+  color: var(--bltm-placeholder);
+}
+
+.bltm .bltm-preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------------------- */
+/* Actor Drop */
+/* ------------------------------- */
+.bltm .bltm-actor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 5px 0;
+  border-top: 1px dotted var(--bltm-border-strong);
+}
+
+.bltm .bltm-actor .actor-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.bltm .bltm-actor .actor-info img {
+  flex-shrink: 0;
+  border: none;
+  width: 64px;
+  height: 64px;
+}
+
+.bltm .bltm-actor .actor-info label {
+  flex-grow: 1;
+  font-weight: bold;
+  color: var(--bltm-text);
+}
+
+.bltm .bltm-actor .drop-area {
+  flex: 1;
+  border: 2px dashed var(--bltm-border);
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  color: #aaa;
+  background-color: var(--bltm-bg);
+  font-style: italic;
+  transition: background-color 0.2s, color 0.2s;
+  user-select: none;
+  min-width: 0;
+  margin-left: 2rem;
+}
+
+.bltm .bltm-actor .drop-area.dragover {
+  background-color: var(--bltm-border-strong);
+  color: #fff;
+  border-color: #aaa;
+}
+
+/* ------------------------------- */
+/* Buttons */
+/* ------------------------------- */
+.bltm .bltm-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dotted var(--bltm-border-strong);
+}
+
+.bltm .bltm-buttons button {
+  font-size: 14px;
+  height: 36px;
+  padding: 0 16px;
+  min-width: 400px;
+  border: none;
+  background-color: var(--bltm-bg-light);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.bltm .bltm-buttons .bltm-update-btn {
+  margin: 0 1rem 0 3rem;
+}
+
+.bltm .bltm-buttons .bltm-rollback-btn {
+  margin: 0 3rem 0 1rem;
+}
+
+.bltm .bltm-buttons button:hover {
+  background-color: var(--bltm-border);
+}
+
+/* ------------------------------- */
+/* Icon */
+/* ------------------------------- */
+/* Foundry v12 sidebar button*/
+.control-tool i.bltm.bltm-icon-tokenmanager {
+  background-image: url('../artwork/000-logo/logo-icon-1.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Foundry v12 ui icon*/
+.window-header i.bltm.bltm-icon-tokenmanager {
+  background-image: url('../artwork/000-logo/logo-icon-1.webp');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 28px;
+  height: 28px;
+}
+
+/* Foundry v13 sidebar button*/
+.faded-ui button.control.ui-control.tool.bltm.bltm-icon-tokenmanager {
+  background-image: url('../artwork/000-logo/logo-icon-1.webp');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}

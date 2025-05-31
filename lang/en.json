@@ -1,0 +1,30 @@
+{
+  "boss-loot-token-manager": {
+    "ui": {
+      "title": "Boss Loot Token Manager",
+      "previewHint": "Select an image to preview",
+      "previewPromo": "Check out our <a href=\"https://www.foundryvtt.store/creators/boss-loot\" target=\"_blank\" rel=\"noopener noreferrer\">module packs</a> for more great tokens!",
+      "actorName": "Drop an Actor to begin",
+      "dropActor": "Drop Actor",
+      "button": {
+        "update": "Update Token",
+        "rollback": "Rollback Token"
+      }
+    },
+    "notifications": {
+      "updateActor": {
+        "actorNeeded": "Please drop an Actor into the interface before applying changes.",
+        "imageNeeded": "Please select an image before applying changes.",
+        "success": "Images for '{actorName}' have been successfully updated."
+      },
+      "rollbackActor": {
+        "actorNeeded": "No Actor is currently selected to restore!",
+        "imageNeeded": "No original image found for '{actorName}'!",
+        "success": "Images for '{actorName}' have been successfully restored to their original state."
+      },
+      "onDrop": {
+        "actorNeeded": "Only Actors can be dropped here. Please try again!"
+      }
+    }
+  }
+}
