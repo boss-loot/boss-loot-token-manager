@@ -18,3 +18,6 @@ To install Boss Loot Token Manager:
 1. Navigate to Add-on Modules in your Foundry VTT setup.
 2. Search for "Boss Loot Token Manager" and install it.
 3. Enable the module in your game setup.
+
+## Support
+If you enjoy using this module, consider joining our [Patreon](https://www.patreon.com/BossLoot) for exclusive content. Additional support, questions, and bug reports can be made on our [Discord](https://discord.gg/Cg8WEDbCua) server.
