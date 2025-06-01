@@ -12,7 +12,7 @@
 
 ### Boss Loot Token Manager is a simple system-agnostic UI that allows users to browse and preview our animated token artwork, then easily assign it to an Actor and its Prototype Token in Foundry VTT.
 ### It also includes a rollback feature, enabling you to restore the original artwork at any time with a single click.
-### The module comes bundled with 20 animated, top-down commoner tokens, ideal for filling out towns, markets, or background NPCs in your world.
+#### The module comes bundled with some animated, top-down commoner tokens, ideal for filling out towns, markets, or background NPCs in your world.
 
 ## Installation
 To install Boss Loot Token Manager:
