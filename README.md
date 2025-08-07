@@ -20,5 +20,8 @@ To install Boss Loot Token Manager:
 2. Search for "Boss Loot Token Manager" and install it.
 3. Enable the module in your game setup.
 
+## How to
+[How to Create Resource Packs](https://github.com/boss-loot/boss-loot-token-manager/wiki/Creating-Resource-Packs-for-Boss-Loot-Token-Manager)
+
 ## Support
 If you enjoy using this module, consider joining our [Patreon](https://www.patreon.com/BossLoot) for exclusive content. Additional support, questions, and bug reports can be made on our [Discord](https://discord.gg/Cg8WEDbCua) server.
