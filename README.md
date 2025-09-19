@@ -10,9 +10,13 @@
     <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-patreon-icon.jpg" alt="Support on Patreon" width="217" height="51">
 </a>
 
-### Boss Loot Token Manager is a simple system-agnostic UI that allows users to browse and preview our animated token artwork, then easily assign it to an Actor and its Prototype Token in Foundry VTT.
-### It also includes a rollback feature, enabling you to restore the original artwork at any time with a single click.
-#### The module comes bundled with some animated, top-down commoner tokens, ideal for filling out towns, markets, or background NPCs in your world.
+## Overview
+Boss Loot Token Manager is a simple system-agnostic UI that allows users to browse and preview our animated token artwork, then easily assign it to an Actor and its Prototype Token in Foundry VTT.
+It also includes a rollback feature, enabling you to restore the original artwork at any time with a single click.
+The module comes bundled with some animated, top-down commoner tokens, ideal for filling out towns, markets, or background NPCs in your world.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/boss-loot/boss-loot-token-manager/refs/heads/main/artwork/000-logo/TokenManager.jpg" alt="Token Manager" width="708" />
+</p>
 
 ## Installation
 To install Boss Loot Token Manager:
@@ -22,6 +26,10 @@ To install Boss Loot Token Manager:
 
 ## How to
 [How to Create Resource Packs](https://github.com/boss-loot/boss-loot-token-manager/wiki/Creating-Resource-Packs-for-Boss-Loot-Token-Manager)
+
+## Premium Packs
+With the [Patreon Legendary Looters Tier](https://www.patreon.com/cw/BossLoot) you gain access to our full collection of animated tokens, magic items, and adventures.  
+You can also find more Boss Loot animated tokens on the [Foundry VTT Marketplace](https://www.foundryvtt.store/creators/boss-loot).
 
 ## Support
 If you enjoy using this module, consider joining our [Patreon](https://www.patreon.com/BossLoot) for exclusive content. Additional support, questions, and bug reports can be made on our [Discord](https://discord.gg/Cg8WEDbCua) server.
