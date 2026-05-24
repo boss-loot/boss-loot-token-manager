@@ -1,6 +1,6 @@
 # Boss Loot Token Manager
 
-![Foundry Version](https://img.shields.io/badge/Foundry-v13-informational)
+![Foundry Version](https://img.shields.io/badge/Foundry-v14-informational)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-token-manager&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/boss-loot-token-manager/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/boss-loot-token-manager/latest/boss-loot-token-manager.zip)
